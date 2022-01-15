@@ -15,13 +15,15 @@ class LoginScreen extends StatelessWidget {
           Container(
             alignment: Alignment.centerLeft,
             padding: EdgeInsets.symmetric(horizontal: 40),
-            child: Text(
-              "LOGIN",
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  color: Color(0xFF2661FA),
-                  fontSize: 36),
-              textAlign: TextAlign.left,
+            child: Center(
+              child: Text(
+                "Your login Page",
+                style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Colors.red,
+                    fontSize: 36),
+                textAlign: TextAlign.left,
+              ),
             ),
           ),
           SizedBox(height: size.height * 0.03),
@@ -71,11 +73,9 @@ class LoginScreen extends StatelessWidget {
                 height: 50.0,
                 width: size.width * 0.5,
                 decoration: new BoxDecoration(
-                    borderRadius: BorderRadius.circular(80.0),
-                    gradient: new LinearGradient(colors: [
-                      Color.fromARGB(255, 255, 136, 34),
-                      Color.fromARGB(255, 255, 177, 41)
-                    ])),
+                  borderRadius: BorderRadius.circular(80.0),
+                  color: Colors.red,
+                ),
                 padding: const EdgeInsets.all(0),
                 child: Text(
                   "LOGIN",
