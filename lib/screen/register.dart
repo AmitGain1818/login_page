@@ -143,13 +143,14 @@ class RegisterScreen extends StatelessWidget {
 
   final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
   void registerNewUser(BuildContext context) async {
-    final FirebaseUser firebaseUser =
-        (await _firebaseAuth.createUserWithEmailAndPassword(
+    final User? firebaseUser = (await _firebaseAuth
+            .createUserWithEmailAndPassword(
                 email: emailTextEditingController.text,
-                password: passwordTextEditingController.text).catchError(errMsg){
-                  displayToastMessage('Error:' + errMsg.toString(), context);
-                })
-            .user;
+                password: passwordTextEditingController.text)
+            .catchError((errMsg) {
+      displayToastMessage('Error:' + errMsg.toString(), context);
+    }))
+        .user;
     if (firebaseUser != null) {
     } else {}
   }
