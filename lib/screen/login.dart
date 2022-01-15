@@ -31,7 +31,10 @@ class LoginScreen extends StatelessWidget {
             alignment: Alignment.center,
             margin: EdgeInsets.symmetric(horizontal: 40),
             child: TextField(
-              decoration: InputDecoration(labelText: "Username"),
+              decoration: InputDecoration(
+                  labelText: "Email",
+                  hintText: 'Enter Your Email',
+                  prefixIcon: Icon(Icons.email)),
             ),
           ),
           SizedBox(height: size.height * 0.03),
@@ -39,7 +42,11 @@ class LoginScreen extends StatelessWidget {
             alignment: Alignment.center,
             margin: EdgeInsets.symmetric(horizontal: 40),
             child: TextField(
-              decoration: InputDecoration(labelText: "Password"),
+              decoration: InputDecoration(
+                labelText: "Password",
+                hintText: 'Enter Your Password',
+                prefixIcon: Icon(Icons.password),
+              ),
               obscureText: true,
             ),
           ),
