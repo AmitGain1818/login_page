@@ -10,8 +10,17 @@ class HomePage extends StatelessWidget {
         title: Text('Login Screen'),
       ),
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text('Welcome to Homepage'),
+          Center(
+              child: Text(
+            'Welcome to Homepage',
+            style: TextStyle(
+              fontSize: 32,
+              fontWeight: FontWeight.bold,
+              color: Colors.teal,
+            ),
+          )),
         ],
       ),
     );
