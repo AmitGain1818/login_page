@@ -93,9 +93,9 @@ class RegisterScreen extends StatelessWidget {
               child: Text(
                 "Already Have an Account? Sign in",
                 style: TextStyle(
-                    fontSize: 12,
-                    fontWeight: FontWeight.bold,
-                    color: Color(0xFF2661FA)),
+                  fontSize: 14,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ),
           )

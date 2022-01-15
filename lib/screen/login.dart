@@ -48,7 +48,9 @@ class LoginScreen extends StatelessWidget {
             margin: EdgeInsets.symmetric(horizontal: 40, vertical: 10),
             child: Text(
               "Forgot your password?",
-              style: TextStyle(fontSize: 12, color: Color(0XFF2661FA)),
+              style: TextStyle(
+                fontSize: 14,
+              ),
             ),
           ),
           SizedBox(height: size.height * 0.05),
@@ -96,9 +98,9 @@ class LoginScreen extends StatelessWidget {
               child: Text(
                 "Don't Have an Account? Sign up",
                 style: TextStyle(
-                    fontSize: 12,
-                    fontWeight: FontWeight.bold,
-                    color: Color(0xFF2661FA)),
+                  fontSize: 14,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ),
           )
