@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "624749761533",
+    "project_id": "login-screen-ce87c",
+    "storage_bucket": "login-screen-ce87c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624749761533:android:ab0798a4476b7fa203bf94",
+        "android_client_info": {
+          "package_name": "com.example.login_page"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624749761533-060e535f535fpo3j5bcpvk00b50gmf05.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNWQ2CUhhUBbY5sS96snui23g9Djlj-Y0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624749761533-060e535f535fpo3j5bcpvk00b50gmf05.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
